@@ -1,0 +1,9 @@
+.Body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: var(--background2);
+    color: var(--color);
+}

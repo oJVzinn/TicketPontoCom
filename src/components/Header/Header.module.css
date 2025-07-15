@@ -1,0 +1,57 @@
+.Header {
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    background: var(--background);
+    width: 95%;
+    height: 80%;
+    border-radius: var(--borderRadius);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.login {
+    background: var(--background3);
+    padding: 15px 30px;
+    border-radius: var(--borderRadius);
+    color: white;
+    text-decoration: none;
+    font-size: var(--textDesc);
+    font-weight: bold;
+}
+
+.redirects {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+    width: 60%;
+}
+
+.redirects li {
+    list-style: none;
+}
+
+.redirect {
+    font-size: var(--textDesc);
+    border: none;
+    background: none;
+    outline: none;
+    color: var(--color);
+}
+
+.redirect:hover {
+    cursor: pointer;
+    background: none;
+}

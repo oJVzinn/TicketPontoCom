@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --borderRadius: 15px;
+  --textTitle: 25px;
+  --textSubTitle: 20px;
+  --textDesc: 15px;
+}
+
+:root[theme="light"] {
+  --background: #DADCE2;
+  --background2: #FFFFFF;
+  --background3: #304FFE;
+  --color: black;
+}
+
+:root[theme="dark"] {
+  --background: #5F656A;
+  --background2: #202124;
+  --background3: #304FFE;
+  --color: white;
+}

@@ -1,0 +1,35 @@
+.ThemeChanger {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.themeButton {
+    position: absolute;
+    display: flex;
+    background-color: var(--background2);
+    border: solid 2px var(--color);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.themeIcon {
+    height: 80%;
+    width: 80%;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.fadeOut {
+    opacity: 0;
+}
+
+.themeButton:hover {
+    cursor: pointer;
+}
