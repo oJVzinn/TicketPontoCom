@@ -8,7 +8,7 @@
 
 .background {
     background: var(--background);
-    width: 95%;
+    width: 90%;
     height: 80%;
     border-radius: var(--borderRadius);
     display: flex;

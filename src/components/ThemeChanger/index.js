@@ -19,7 +19,7 @@ export default function ThemeChanger( {themeUtils} ) {
     return (
         <div className={styles.ThemeChanger}>
             <button className={styles.themeButton} onClick={handleThemeChange}>
-                <img className={`${styles.themeIcon} ${isFading ? styles.fadeOut : ""}`}
+                <img className={`${styles.themeIcon} ${isFading && styles.fadeOut}`}
                      src={iconSrc}
                      alt="changeTheme"
                 />

@@ -3,9 +3,11 @@ import ThemeChanger from "../ThemeChanger";
 
 export default function Body( {themeUtils, children} ) {
     return (
-        <body className={styles.Body}>
+        <main className={styles.Body}>
             <ThemeChanger themeUtils={themeUtils}/>
-            {children}
-        </body>
+            <div className={ styles.content }>
+                {children}
+            </div>
+        </main>
     )
 }

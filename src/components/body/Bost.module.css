@@ -3,7 +3,14 @@
     width: 100vw;
     height: 100vh;
     flex-direction: column;
-    overflow: hidden;
     background-color: var(--background2);
     color: var(--color);
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: calc(90% + 40px);
 }
