@@ -13,7 +13,7 @@ export default function Header( {themeUtils} ) {
         <header className={styles.Header}>
             <nav className={styles.background}>
                 <img alt="logo" src={iconSrc} className={styles.logo} />
-                <Container width="50%" bg="none" direction="row" align="center" justify="space-between">
+                <Container width="50%" bg="none" direction="row" align="center" justify="end">
                     <ul className={styles.redirects}>
                         <li>
                             <button className={styles.redirect}>Início</button>

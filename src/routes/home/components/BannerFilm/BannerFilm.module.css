@@ -1,3 +1,117 @@
 .BannerFilm {
-
+    content: '';
+    color: white;
+    min-width: 60%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 65vw 45vh;
+    background-position: center;
+    border-radius: var(--borderRadius);
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 30px 40px;
+    margin: 0;
+    gap: 15px;
+    list-style: none;
+    transition: background-size 0.5s ease;
 }
+
+.BannerFilm:hover {
+    cursor: pointer;
+    background-size: 84vw 55vh;
+}
+
+.filmLogo {
+    width: 120px;
+    height: 50px;
+}
+
+.filmDescInfo {
+    font-size: var(--textSubTitle);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filmDesc {
+    font-size: var(--textDesc);
+    overflow: hidden;
+    transition: all 0.5s ease;
+    opacity: 0;
+    height: 0;
+    width: 40%;
+}
+
+.info {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.indicativeImg {
+    width: 25px;
+    height: 25px;
+}
+
+.buttons {
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    width: 150px;
+    background-color: var(--background3);
+    outline: none;
+    border: none;
+    border-radius: var(--borderRadius);
+    color: white;
+    font-size: var(--textDesc);
+    padding: 15px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: calc(var(--textDesc) * 2);
+    }
+}
+
+.animateFade {
+    height: calc(var(--textDesc) * 2);
+    opacity: 1;
+}
+
+@keyframes fadeOut {
+    from {
+        height: calc(var(--textDesc) * 2);
+    }
+    to {
+        height: 0;
+    }
+}
+
+.animateOut {
+    height: 0;
+    opacity: 0;
+}
+

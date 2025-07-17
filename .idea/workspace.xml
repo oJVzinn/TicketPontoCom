@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a86bea4-1dc5-478a-991c-46072b4a1023" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/home/components/Banner/Banner.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/home/components/Banner/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThemeChanger/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeChanger/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/Bost.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/Bost.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/body/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/body/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joaov\Área de Trabalho\ARQUIVOS DO JV\ARQUIVOS DO JV\GitHub\Ticket\front\ticket\public\assets" />
       <recent name="C:\Users\joaov\Área de Trabalho\ARQUIVOS DO JV\ARQUIVOS DO JV\GitHub\Ticket\front\ticket\src" />
       <recent name="C:\Users\joaov\Área de Trabalho\ARQUIVOS DO JV\ARQUIVOS DO JV\GitHub\Ticket\front\ticket\src\components" />
     </key>
@@ -73,7 +65,8 @@
       <workItem from="1752466729976" duration="1675000" />
       <workItem from="1752536443572" duration="1589000" />
       <workItem from="1752633890424" duration="1847000" />
-      <workItem from="1752677411626" duration="1048000" />
+      <workItem from="1752677411626" duration="1447000" />
+      <workItem from="1752711763412" duration="103000" />
     </task>
     <servers />
   </component>

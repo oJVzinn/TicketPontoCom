@@ -1,4 +1,5 @@
 .Container {
     display: flex;
     padding-block: 15px;
+    overflow: hidden;
 }
